@@ -5,7 +5,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ASSETS } from "@/constants/assets";
 import { WEDDING_CONFIG } from "@/constants/weddingConfig";
-import OrnamentFlourish from "@/components/OrnamentFlourish";
 
 export default function HeroSection({ isOpening = true }) {
   return (
@@ -176,36 +175,6 @@ export default function HeroSection({ isOpening = true }) {
               {WEDDING_CONFIG.receptionDate}
             </p>
             <span className="text-[6.5px] text-textColor-ternary">◆</span>
-          </motion.div>
-
-          {/* Floating Scroll Indicator */}
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 10 },
-              visible: {
-                opacity: 1,
-                y: 0,
-                transition: { duration: 1.0, ease: [0.22, 1, 0.36, 1] },
-              },
-            }}
-            className="mt-auto mb-3.5 flex flex-col items-center gap-1 cursor-pointer select-none"
-            onClick={() => {
-              const cardElem = document.getElementById("sacred-card");
-              cardElem?.scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            <motion.div
-              animate={{ y: [0, 4, 0] }}
-              transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-              className="flex flex-col items-center gap-1"
-            >
-              <span className="font-playfair text-[9px] sm:text-[9.5px] tracking-[0.22em] font-bold text-textColor-ternary uppercase filter drop-shadow-[0_1px_6px_rgba(255,255,255,0.95)]">
-                Scroll to View Invitation
-              </span>
-              <div className="filter drop-shadow-[0_1px_4px_rgba(255,255,255,0.9)]">
-                <OrnamentFlourish orientation="vertical" height={32} width={9} opacity={0.85} />
-              </div>
-            </motion.div>
           </motion.div>
         </motion.div>
       </div>

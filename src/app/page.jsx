@@ -9,6 +9,7 @@ import ProgramSection from "@/components/ProgramSection";
 import VenueSection from "@/components/VenueSection";
 import FooterSection from "@/components/FooterSection";
 import AudioController from "@/components/AudioController";
+import ScrollIndicator from "@/components/ScrollIndicator";
 
 export default function Home() {
   const [envelopeState, setEnvelopeState] = useState("closed"); // "closed" | "opening" | "opened"
@@ -91,6 +92,9 @@ export default function Home() {
 
         {/* Floating Gold Lantern Audio Controller (Mobile Anchored) */}
         <AudioController autoPlayTrigger={isRevealed} />
+
+        {/* Floating Animated Luxury Scroll Guide */}
+        <ScrollIndicator isVisible={isRevealed} />
       </main>
     </div>
   );
