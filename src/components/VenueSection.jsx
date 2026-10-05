@@ -11,7 +11,7 @@ export default function VenueSection() {
   const { venue } = WEDDING_CONFIG;
   const locations = venue.locations || [
     {
-      id: "burhani-hall",
+      id: "pan-wadi",
       name: venue.name,
       role: "Wedding Ceremonies",
       dates: "21st – 25th October",
