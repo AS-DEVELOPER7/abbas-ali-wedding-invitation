@@ -140,14 +140,14 @@ export default function ProgramSection() {
                     style={{ y: lanternY }}
                     animate={{ rotate: [-1, 1, -1] }}
                     transition={{ duration: 7 + idx * 0.5, repeat: Infinity, ease: "easeInOut" }}
-                    className="absolute top-0 right-0 w-16 opacity-80 pointer-events-none group-hover:opacity-75 transition-opacity origin-top will-change-transform"
+                    className="absolute z-20 -top-1 right-0 w-16 opacity-80 pointer-events-none group-hover:opacity-75 transition-opacity origin-top will-change-transform"
                   >
                     <Image
                       src={ASSETS.program.hangingLanterns}
                       alt="Decorative Hanging Lanterns"
                       width={201}
                       height={432}
-                      className="w-full h-auto object-contain drop-shadow-[0_2px_6px_rgba(212,175,55,0.3)] rotate-y-180"
+                      className="w-full h-auto object-contain drop-shadow-[0_2px_6px_rgba(212,175,55,0.3)] z-[100] rotate-y-180"
              
                     />
                   </motion.div>
