@@ -91,7 +91,7 @@ export const WEDDING_CONFIG = {
         date: "21st October",
         dayOfWeek: "Wednesday",
         fullDate: "Wednesday, 21st October 2026",
-        venue: "At Shastri Colony",
+        venue: "At Shastri Colony, Dungarpur",
         venueDetails: "Shastri Colony, Dungarpur",
         description:
           "Auspicious ceremonial pillar installation marking the joyous commencement of wedding celebrations.",
@@ -103,7 +103,7 @@ export const WEDDING_CONFIG = {
         date: "22nd October",
         dayOfWeek: "Thursday",
         fullDate: "Thursday, 22nd October 2026",
-        venue: "At Shastri Colony",
+        venue: "At Shastri Colony, Dungarpur",
         venueDetails: "Shastri Colony, Dungarpur",
         description:
           "Festive henna celebrations filled with joyous family traditions, blessings, and melodies.",
@@ -115,7 +115,7 @@ export const WEDDING_CONFIG = {
         date: "23rd October",
         dayOfWeek: "Friday",
         fullDate: "Friday, 23rd October 2026",
-        venue: "At Pan Wadi",
+        venue: "At Pan Wadi, Dungarpur",
         venueDetails: "Pan Wadi, Dungarpur",
         description:
           "Maternal blessings ceremony filled with cherished family traditions, auspicious rituals, and heartfelt Duas.",
@@ -127,7 +127,7 @@ export const WEDDING_CONFIG = {
         date: "24th October",
         dayOfWeek: "Saturday",
         fullDate: "Saturday, 24th October 2026",
-        venue: "At Pan Wadi",
+        venue: "At Pan Wadi, Dungarpur",
         venueDetails: "Pan Wadi, Dungarpur",
         description:
           "Sacred Khushi Ni Majlis prayers followed by the grand celebratory wedding procession with family, elders, and cherished traditions.",
@@ -139,7 +139,7 @@ export const WEDDING_CONFIG = {
         date: "25th October",
         dayOfWeek: "Sunday",
         fullDate: "Sunday, 25th October 2026",
-        venue: "At Pan Wadi",
+        venue: "At Pan Wadi, Dungarpur",
         venueDetails: "Pan Wadi, Dungarpur",
         description:
           "Celebratory royal banquet and wedding reception to welcome, honour, and bless the newly married couple.",
@@ -164,9 +164,11 @@ export const WEDDING_CONFIG = {
         dates: "23rd, 24th & 25th October",
         address: "Pan Wadi, Dungarpur, Rajasthan 314001",
         mapEmbedQuery: "Pan+Wadi,+Dungarpur,+Rajasthan",
-        googleMapsUrl: "https://maps.google.com/?q=Pan+Wadi+Dungarpur+Rajasthan",
+        googleMapsUrl:
+          "https://maps.google.com/?q=Pan+Wadi+Dungarpur+Rajasthan",
         type: "Celebration Venue",
-        highlights: "Maternal blessings ceremony, celebratory majalis prayers, grand procession & royal reception banquet.",
+        highlights:
+          "Maternal blessings ceremony, celebratory majalis prayers, grand procession & royal reception banquet.",
       },
       {
         id: "shastri-colony",
@@ -175,9 +177,11 @@ export const WEDDING_CONFIG = {
         dates: "21st & 22nd October",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
         mapEmbedQuery: "Shastri+Colony,+Dungarpur,+Rajasthan",
-        googleMapsUrl: "https://maps.google.com/?q=Shastri+Colony+Dungarpur+Rajasthan",
+        googleMapsUrl:
+          "https://maps.google.com/?q=Shastri+Colony+Dungarpur+Rajasthan",
         type: "Ceremonial Venue",
-        highlights: "Main ceremonial pillar consecration & celebratory henna evening.",
+        highlights:
+          "Main ceremonial pillar consecration & celebratory henna evening.",
       },
       {
         id: "residence",
@@ -186,9 +190,11 @@ export const WEDDING_CONFIG = {
         dates: "Throughout Festivities",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
         mapEmbedQuery: "Shastri+Colony,+Dungarpur,+Rajasthan",
-        googleMapsUrl: "https://maps.google.com/?q=Shastri+Colony+Dungarpur+Rajasthan",
+        googleMapsUrl:
+          "https://maps.google.com/?q=Shastri+Colony+Dungarpur+Rajasthan",
         type: "Private Family Residence",
-        highlights: "Warm hospitality and family welcomes throughout the wedding celebrations.",
+        highlights:
+          "Warm hospitality and family welcomes throughout the wedding celebrations.",
       },
     ],
   },

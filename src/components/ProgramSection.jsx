@@ -157,9 +157,9 @@ export default function ProgramSection() {
 
                   {/* Header Row: Day Pill & Arabic Title */}
                   <div className="relative z-10 flex items-center justify-between mb-1.5 pr-14">
-                    <span className="font-playfair text-[10px] font-bold tracking-widest text-textColor-ternary uppercase bg-backgroundColor-primary px-2.5 py-0.5 rounded-full border border-borderColor-primary/30 shadow-2xs">
+                    {/* <span className="font-playfair text-[10px] font-bold tracking-widest text-textColor-ternary uppercase bg-backgroundColor-primary px-2.5 py-0.5 rounded-full border border-borderColor-primary/30 shadow-2xs">
                       {event.dayOfWeek}
-                    </span>
+                    </span> */}
                     {/* {event.titleArabic && (
                       <span className="text-xs font-semibold text-textColor-ternary/85 direction-rtl font-playfair">
                         {event.titleArabic}
@@ -180,7 +180,7 @@ export default function ProgramSection() {
                       <span className="text-textColor-ternary">📅</span> {event.date} • {event.dayOfWeek}
                     </p>
                     <p className="font-playfair text-xs font-semibold text-textColor-ternary flex items-center gap-1.5">
-                      <span className="text-textColor-ternary">📍</span> {event.venue} ({event.venueDetails})
+                      <span className="text-textColor-ternary">📍</span> {event.venue} 
                     </p>
                   </div>
 
