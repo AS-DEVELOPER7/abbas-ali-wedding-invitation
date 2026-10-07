@@ -31,7 +31,7 @@ export default function FooterSection() {
           With heartfelt gratitude,
         </p>
         <p className="font-allura text-2xl font-bold tracking-[0.18em] text-textColor-ternary ">
-          Dhulebwala &amp; Naharwala Families
+          Naharwala &amp; Dhulebwala Families
         </p>
       </div>
     </footer>
