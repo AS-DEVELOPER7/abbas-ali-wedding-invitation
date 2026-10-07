@@ -94,7 +94,7 @@ export const WEDDING_CONFIG = {
         date: "18th October",
         dayOfWeek: "Sunday",
         fullDate: "Sunday, 18th October 2026",
-        venue: "At Shastri Colony, Dungarpur",
+        venue: "At Naharwala Residence, Dungarpur",
         venueDetails: "Shastri Colony, Dungarpur",
         description:
           "The couple will recite Darees in presence of the community and elders.",
