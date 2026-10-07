@@ -85,7 +85,7 @@ export default function HeroSection({ isOpening = true }) {
               whileHover={{ scale: 1.025, transition: { duration: 0.35, ease: "easeOut" } }}
               className="font-allura text-[44px] sm:text-[50px] text-textColor-primary font-normal leading-[1.05] filter drop-shadow-[0_2px_14px_rgba(255,255,255,0.98)] drop-shadow-[0_1px_3px_rgba(255,255,255,1)] tracking-wide cursor-default transition-shadow"
             >
-              Amatullah
+              {WEDDING_CONFIG.couple.groom.firstName}
             </motion.h1>
 
             {/* Delicate Gold Ampersand with Accent Lines */}
@@ -152,7 +152,7 @@ export default function HeroSection({ isOpening = true }) {
               whileHover={{ scale: 1.025, transition: { duration: 0.35, ease: "easeOut" } }}
               className="font-allura text-[44px] sm:text-[50px] text-textColor-primary font-normal leading-[1.05] filter drop-shadow-[0_2px_14px_rgba(255,255,255,0.98)] drop-shadow-[0_1px_3px_rgba(255,255,255,1)] tracking-wide cursor-default transition-shadow"
             >
-              Abbas Ali
+               {WEDDING_CONFIG.couple.bride.firstName}
             </motion.h2>
           </div>
 

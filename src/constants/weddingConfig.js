@@ -54,22 +54,25 @@ export const WEDDING_CONFIG = {
     nikahDeclaration:
       "Nikah solemnised on Dast-e-mubarak of Syedna Aali Qadar Mufaddal Saifuddin (T.U.S) on 24th January 2025 (25 Rajab-ul-Asab 1447 H) in Surat.",
     invitationPreamble: "Thereafter we",
-    invitationHosts: "Ajab & Kaied Johar Dhulebwala",
+    invitationHosts: "Nisrin & Ali Asgar bhai Naharwala",
     invitationRequest:
       "cordially request your presence to grace the Wedding Ceremony of our beloved daughter",
-    groomParentage: "(S/O Nisrin ben & Ali Asgar bhai Naharwala)",
+    groomParentage: "(D/O Ajab ben & Kaied Johar Dhulebwala)",
   },
 
   // Family Honors & Blessings
   familyHonors: {
     withBlessingsOf: [
-      "RUQAIYA BEN & LATE SHABBIR HUSSAIN DHULEBWALA (DADI-DADA)",
-      "KHADIJA BEN & LATE MOIZ HUSSAIN KARIMJIWALA (NANI-NANA)",
+      "LATE ZAHRA BEN & LATE KURBAN HUSSAIN NAHARWALA (DADA-DADI)",
+      "LATE AMENA BEN & LATE ABBAS ALI KALIYANPURWALA (NANI-NANA)",
     ],
-    specialRequest: ["ZAHRA & HUSSAIN DHULEBWALA (BHABI-BHAI)"],
+    specialRequest: [
+      "HUSSAINA & TAHA HUSSAIN NAHARWALA (BHABI-BHAI)",
+      "TASNIM NAHARWALA (SISTER)",
+    ],
     withBestComplimentsFrom: [
       "Faiji-fuaji, Kaka-kaki, Masi-masaji, Mama-mami,",
-      "All cousins, All Dhulebwala and Karimjiwala family.",
+      "All cousins, All Naharwala and Kaliyanpurwala family.",
     ],
   },
 
@@ -96,18 +99,7 @@ export const WEDDING_CONFIG = {
         description:
           "Auspicious ceremonial pillar installation marking the joyous commencement of wedding celebrations.",
       },
-      {
-        id: "mehendi",
-        title: "Mehendi",
-        titleArabic: "حفل الحناء (المهندي)",
-        date: "22nd October",
-        dayOfWeek: "Thursday",
-        fullDate: "Thursday, 22nd October 2026",
-        venue: "At Shastri Colony, Dungarpur",
-        venueDetails: "Shastri Colony, Dungarpur",
-        description:
-          "Festive henna celebrations filled with joyous family traditions, blessings, and melodies.",
-      },
+
       {
         id: "mama-musala",
         title: "Mama Musala",
@@ -216,6 +208,6 @@ export const WEDDING_CONFIG = {
     english:
       "May Allah bless you both, shower His blessings upon you, and unite you both in goodness.",
     gratitude:
-      "With heartfelt gratitude from the Dhulebwala & Naharwala families.",
+      "With heartfelt gratitude from the Naharwala & Dhulebwala families.",
   },
 };

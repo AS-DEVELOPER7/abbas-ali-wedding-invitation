@@ -434,7 +434,7 @@ export default function SacredInvitationCard() {
             >
               {/* Bride Name */}
               <h2 className="font-allura text-3xl  font-bold tracking-[0.16em] text-textColor-ternary ">
-                {couple.bride.firstName}
+                {couple.groom.firstName}
               </h2>
 
               {/* Script 'with' flourish */}
@@ -444,7 +444,7 @@ export default function SacredInvitationCard() {
 
               {/* Groom Name */}
               <h2 className="font-allura text-3xl  font-bold tracking-[0.16em] text-textColor-ternary ">
-                {couple.groom.firstName}
+                {couple.bride.firstName}
               </h2>
               <p className="font-playfair italic text-[11px] text-textColor-secondary mt-1 font-medium">
                 {sacredText.groomParentage}
