@@ -80,7 +80,7 @@ export const WEDDING_CONFIG = {
   program: {
     intro: {
       lead: "With joy in our hearts,",
-      invitation: "Dhuleb Family invites you to the Wedding.",
+      invitation: "Naharwala Family invites you to the Wedding.",
     },
     residence: {
       title: "Our Residence",
@@ -177,7 +177,7 @@ export const WEDDING_CONFIG = {
       },
       {
         id: "residence",
-        name: "Dhulebwala Residence",
+        name: "Naharwala Residence",
         role: "Family Residence",
         dates: "Throughout Festivities",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
@@ -193,9 +193,9 @@ export const WEDDING_CONFIG = {
 
   // Calendar Event Details for Google Calendar / iCal
   calendar: {
-    title: "Wedding Ceremony: Amatullah & Abbas Ali",
+    title: "Wedding Ceremony: Abbas Ali & Amatullah",
     description:
-      "Wedding ceremony of Amatullah (D/O Ajab & Kaied Johar Dhulebwala) with Abbas Ali (S/O Nisrin ben & Ali Asgar bhai Naharwala). Nikah on Dast-e-mubarak of Syedna Aali Qadar Mufaddal Saifuddin (T.U.S).",
+      "Wedding ceremony of Abbas Ali (S/O Nisrin ben & Ali Asgar bhai Naharwala) with Amatullah (D/O Ajab & Kaied Johar Dhulebwala) . Nikah on Dast-e-mubarak of Syedna Aali Qadar Mufaddal Saifuddin (T.U.S).",
     location: "Pan Wadi & Shastri Colony, Dungarpur, Rajasthan",
     startDate: "20261021T173000",
     endDate: "20261025T230000",
