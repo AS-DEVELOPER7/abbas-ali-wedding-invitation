@@ -97,7 +97,7 @@ export const WEDDING_CONFIG = {
         venue: "At Shastri Colony, Dungarpur",
         venueDetails: "Shastri Colony, Dungarpur",
         description:
-          "Auspicious ceremonial pillar installation marking the joyous commencement of wedding celebrations.",
+          "The couple will recite Darees in presence of the community and elders.",
       },
       {
         id: "manak-thamb",
