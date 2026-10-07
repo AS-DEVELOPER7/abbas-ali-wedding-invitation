@@ -88,6 +88,18 @@ export const WEDDING_CONFIG = {
     },
     events: [
       {
+        id: "darees",
+        title: "Darees",
+        titleArabic: "دارس",
+        date: "18th October",
+        dayOfWeek: "Sunday",
+        fullDate: "Sunday, 18th October 2026",
+        venue: "At Shastri Colony, Dungarpur",
+        venueDetails: "Shastri Colony, Dungarpur",
+        description:
+          "Auspicious ceremonial pillar installation marking the joyous commencement of wedding celebrations.",
+      },
+      {
         id: "manak-thamb",
         title: "Manak Thamb",
         titleArabic: "مانك تهامب",
@@ -166,7 +178,7 @@ export const WEDDING_CONFIG = {
         id: "shastri-colony",
         name: "Shastri Colony",
         role: "Manak Thamb & Mehendi",
-        dates: "21st & 22nd October",
+        dates: "18th, 21st & 22nd October",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
         mapEmbedQuery: "Shastri+Colony,+Dungarpur,+Rajasthan",
         googleMapsUrl:
@@ -197,7 +209,7 @@ export const WEDDING_CONFIG = {
     description:
       "Wedding ceremony of Abbas Ali (S/O Nisrin ben & Ali Asgar bhai Naharwala) with Amatullah (D/O Ajab & Kaied Johar Dhulebwala) . Nikah on Dast-e-mubarak of Syedna Aali Qadar Mufaddal Saifuddin (T.U.S).",
     location: "Pan Wadi & Shastri Colony, Dungarpur, Rajasthan",
-    startDate: "20261021T173000",
+    startDate: "20261018T173000",
     endDate: "20261025T230000",
   },
 
