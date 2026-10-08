@@ -56,7 +56,7 @@ export const WEDDING_CONFIG = {
     invitationPreamble: "Thereafter we",
     invitationHosts: "Nisrin & Ali Asgar bhai Naharwala",
     invitationRequest:
-      "cordially request your presence to grace the Wedding Ceremony of our beloved daughter",
+      "cordially request your presence to grace the Wedding Ceremony of our beloved son",
     groomParentage: "(D/O Ajab ben & Kaied Johar Dhulebwala)",
   },
 
