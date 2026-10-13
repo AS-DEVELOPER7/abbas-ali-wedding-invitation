@@ -16,7 +16,7 @@ export default function VenueSection() {
       role: "Wedding Ceremonies",
       dates: "21st – 25th October",
       address: venue.address,
-      mapEmbedQuery: `${venue.name}, Dungarpur, Rajasthan`,
+      mapEmbedQuery: "23.8425143,73.7206109",
       googleMapsUrl: venue.googleMapsUrl,
       type: "Ceremonial Venue",
       highlights: venue.subHall,
@@ -257,8 +257,12 @@ export default function VenueSection() {
                     transition={{ duration: 0.35 }}
                     title={`${activeLocation.name} Map`}
                     src={`https://maps.google.com/maps?q=${encodeURIComponent(
-                      activeLocation.mapEmbedQuery
-                    )}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+                      (activeLocation.mapEmbedQuery && !activeLocation.mapEmbedQuery.startsWith("http"))
+                        ? activeLocation.mapEmbedQuery
+                        : (activeLocation.googleMapsUrl?.match(/[?&]q=([^&]+)/)?.[1] ||
+                           activeLocation.mapEmbedQuery ||
+                           activeLocation.name)
+                    )}&t=&z=17&ie=UTF8&iwloc=&output=embed`}
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

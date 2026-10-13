@@ -158,7 +158,8 @@ export const WEDDING_CONFIG = {
     address: "Pan Wadi, Dungarpur, Rajasthan, India",
     city: "Dungarpur",
     country: "India",
-    googleMapsUrl: "https://maps.google.com/?q=Pan+Wadi+Dungarpur+Rajasthan",
+    googleMapsUrl:
+      "https://www.google.com/maps?q=23.8425143,73.7206109&z=17&hl=en",
     valetNote: "Complimentary guest parking available at the venue entrance.",
     locations: [
       {
@@ -167,9 +168,9 @@ export const WEDDING_CONFIG = {
         role: "Mama Musala, Majalis & Reception",
         dates: "23rd, 24th & 25th October",
         address: "Pan Wadi, Dungarpur, Rajasthan 314001",
-        mapEmbedQuery: "Pan+Wadi,+Dungarpur,+Rajasthan",
+        mapEmbedQuery: "23.8425143,73.7206109",
         googleMapsUrl:
-          "https://maps.google.com/?q=Pan+Wadi+Dungarpur+Rajasthan",
+          "https://www.google.com/maps?q=23.8425143,73.7206109&z=17&hl=en",
         type: "Celebration Venue",
         highlights:
           "Maternal blessings ceremony, celebratory majalis prayers, grand procession & royal reception banquet.",
@@ -180,9 +181,9 @@ export const WEDDING_CONFIG = {
         role: "Manak Thamb & Mehendi",
         dates: "18th, 21st & 22nd October",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
-        mapEmbedQuery: "Shastri+Colony,+Dungarpur,+Rajasthan",
+        mapEmbedQuery: "23.8437786,73.7224126",
         googleMapsUrl:
-          "https://maps.google.com/?q=Shastri+Colony+Dungarpur+Rajasthan",
+          "https://www.google.com/maps?q=23.8437786,73.7224126&z=17&hl=en",
         type: "Ceremonial Venue",
         highlights:
           "Main ceremonial pillar consecration & celebratory henna evening.",
@@ -193,9 +194,9 @@ export const WEDDING_CONFIG = {
         role: "Family Residence",
         dates: "Throughout Festivities",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
-        mapEmbedQuery: "Shastri+Colony,+Dungarpur,+Rajasthan",
+        mapEmbedQuery: "23.8452333,73.7202323",
         googleMapsUrl:
-          "https://maps.google.com/?q=Shastri+Colony+Dungarpur+Rajasthan",
+          "https://www.google.com/maps?q=23.8452333,73.7202323&z=17&hl=en",
         type: "Private Family Residence",
         highlights:
           "Warm hospitality and family welcomes throughout the wedding celebrations.",
