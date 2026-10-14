@@ -194,9 +194,9 @@ export const WEDDING_CONFIG = {
         role: "Family Residence",
         dates: "Throughout Festivities",
         address: "Shastri Colony, Dungarpur, Rajasthan 314001",
-        mapEmbedQuery: "23.8452333,73.7202323",
+        mapEmbedQuery: "23.844735,73.7222652",
         googleMapsUrl:
-          "https://www.google.com/maps?q=23.8452333,73.7202323&z=17&hl=en",
+          "https://www.google.com/maps?q=23.844735,73.7222652&z=17&hl=en",
         type: "Private Family Residence",
         highlights:
           "Warm hospitality and family welcomes throughout the wedding celebrations.",
